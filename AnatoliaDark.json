@@ -165,7 +165,8 @@
   "tokenColors": [
     {
       "scope": [
-        "source"
+        "source",
+        "variable"
       ],
       "settings": {
         "foreground": "#eaf2f1"
@@ -188,12 +189,6 @@
       "scope": "keyword",
       "settings": {
         "foreground": "#ff9b5e"
-      }
-    },
-    {
-      "scope": "variable",
-      "settings": {
-        "foreground": "#9CBBDB"
       }
     },
     {

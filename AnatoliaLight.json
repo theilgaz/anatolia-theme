@@ -164,7 +164,10 @@
     },
     "tokenColors": [
       {
-        "scope": ["source"],
+        "scope":[
+          "variable",
+          "source"
+        ],
         "settings": {
           "foreground": "#333333"
         }
@@ -189,12 +192,6 @@
         }
       },
       {
-        "scope": "variable",
-        "settings": {
-          "foreground": "#007acc"
-        }
-      },
-      {
         "scope": ["entity.name.class"],
         "settings": {
           "foreground": "#d68c00"
@@ -210,7 +207,7 @@
           "entity.other.attribute-name"
         ],
         "settings": {
-          "foreground": "#9cd1bb"
+          "foreground": "#5CB975"
         }
       },
       {
