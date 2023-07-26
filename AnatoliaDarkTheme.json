@@ -1,0 +1,111 @@
+{
+  "name": "Anatolia Dark Theme",
+  "author": "Abdullah Ilgaz",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#1e1e2b",
+    "editorGutter.background": "#1e1e2b",
+    "editor.foreground": "#eaf2f1",
+    "editorLineNumber.foreground": "#888d94",
+    "editorLineNumber.activeForeground": "#eaf2f1",
+    "editorCursor.foreground": "#eaf2f1",
+    "editor.selectionBackground": "#535763",
+    "editor.inactiveSelectionBackground": "#535763",
+    "editor.selectionHighlightBackground": "#535763",
+    "editor.wordHighlightBackground": "#535763",
+    "editor.findMatchBackground": "#535763",
+    "editor.findMatchHighlightBackground": "#535763",
+    "editor.findRangeHighlightBackground": "#535763",
+    "editor.hoverHighlightBackground": "#2E2E39",
+    "editor.lineHighlightBackground": "#2E2E39",
+    "editorLink.activeForeground": "#ff657a",
+    "editorWhitespace.foreground": "#888d94",
+    "editorBracketHighlight.foreground1": "#9cd1bb",
+    "editorBracketHighlight.foreground2": "#9cd1bb",
+    "editorBracketHighlight.foreground3": "#9cd1bb",
+    "editorBracketHighlight.foreground4": "#9cd1bb",
+    "editorBracketHighlight.foreground5": "#9cd1bb",
+    "editorBracketHighlight.foreground6": "#9cd1bb"
+  },
+  "tokenColors": [
+    {
+			"scope": "source",
+			"settings": {
+			  "foreground": "#eaf2f1"
+			}
+		  },
+		  {
+			"scope": "comment",
+			"settings": {
+			  "foreground": "#888d94",
+			  "fontStyle": "italic"
+			}
+		  },
+		  {
+			"scope": "string",
+			"settings": {
+			  "foreground": "#ffd76d"
+			}
+		  },
+		  {
+			"scope": "keyword",
+			"settings": {
+			  "foreground": "#ff9b5e"
+			}
+		  },
+		  {
+			"scope": "variable",
+			"settings": {
+			  "foreground": "#9cd1bb"
+			}
+		  },
+		  {
+			"scope": "entity.name.class",
+			"settings": {
+			  "foreground": "#ffd76d"
+			}
+		  },
+		  {
+			"scope": [
+				"constant.numeric",
+				"constant.character",
+				"constant.numeric.float",
+				"constant.numeric.hex",
+				"constant.other"
+			],
+			"settings": {
+			  "foreground": "#9cd1bb"
+			}
+		  },
+		  {
+			"scope": [
+				"storage.modifier",
+				"storage.type",
+				"keyword.operator",
+				"keyword.operator.new",
+				"keyword.operator.arithmetic",
+				"keyword.operator.assignment",
+				"keyword.operator.logical",
+				"keyword.other",
+				"keyword.control",
+				"entity.name.tag",
+				"storage",
+				"storage.type.function.arrow",
+				"storage.type.function",
+				"variable.other",
+				"support.class.component.tsx"
+			],
+			"settings": {
+			  "foreground": "#9CBBDB"
+		  	}
+		  },
+		  {
+			"scope": [
+				"entity.name.function"
+			],
+			"settings": {
+			  "foreground": "#bbdb9c"
+		  	}
+		  }
+  ]
+}

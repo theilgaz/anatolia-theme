@@ -1,0 +1,25 @@
+{
+    "name": "anatolia-dark-theme",
+    "version": "1.0.0",
+    "icon": "icon.png",
+    "engines": {
+      "vscode": "^1.0.0"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/theilgaz/anatolia-dark-theme.git"
+    },
+    "publisher": "Abdullah Ilgaz",
+    "displayName": "Anatolia Dark Theme",
+    "description": "Anatolia Dark Theme is an elegant and visually pleasing dark theme inspired by the rich culture and history of Anatolia.",
+    "categories": ["Themes"],
+    "contributes": {
+      "themes": [
+        {
+          "label": "Anatolia Dark Theme",
+          "uiTheme": "vs-dark",
+          "path": "./AnatoliaDarkTheme.json"
+        }
+      ]
+    }
+  }
